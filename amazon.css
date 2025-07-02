@@ -1,0 +1,393 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+    
+}
+
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width:100px;
+}
+
+.logo{
+    height:50px;
+    background-image:url("D:\\html+css project\\amazon7.png");
+    background-size:cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid white;
+}
+
+/*address secotion in navbar*/
+.navAddress{
+    
+    height: 50px;
+    width:100px;
+}
+.addr-first{
+    color:#cccccc;
+    font-size:0.8rem;
+    margin-left:15px;
+    margin-top: 10px;
+
+}
+
+.addr-second{
+    font-size:1rem;
+    margin-left:3px;
+}
+
+.addIcon{
+    display: flex;
+    align-items: center;
+}
+
+/* box 3 */
+.navSearch{
+    display:flex;
+    border-radius:4px;
+    width:620px;
+    height:40px;
+    background-color:#febd68;
+    justify-content: space-evenly;
+
+}
+
+.navSearch:hover{
+    border:2px solid orange;
+}
+
+.selectSearch{
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    background-color:#f3f3f3;
+    width:50px;
+    text-align:Center;
+    border:none;
+}
+
+.inputSearch{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+
+.searchIcon{
+    width:45px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 1.2rem;
+    background-color:#febd68;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    color:#0f1111
+}
+
+/*box 4*/
+.navSign-in{
+    height:50px;
+    width:113px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+span{
+    margin-top: 20px;
+    font-size:0.8rem;
+
+}
+
+.sign-inSecond{
+    font-size:0.9rem;
+    font-weight:700;
+}
+
+/*box 5*/
+.orders{
+    height: 50px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*box 6*/
+.cart i{
+    font-size:30px;
+}
+
+.cart{
+    font-size:0.9rem;
+    height: 50px;
+    width:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Panel*/
+.panel{
+    background-color: #222f3d;
+    height:39px;
+    color:#ffffff;
+    display:flex;
+    align-items: center;
+}
+
+.allMenu{
+    display: flex;
+    font-size: 14px;
+    font-weight:700;
+    width:58px;
+    height:39px;
+    justify-content: center;
+    align-items: center;
+}
+
+.allMenu i{
+    margin-right:3px;
+}
+
+.otherOptions{
+    display:flex;
+    width:100%;
+    
+    align-items: center;
+    
+}
+
+.otherOptions p{
+    margin-left:15px;
+    padding: 10px 3px 10px 2px;
+}
+
+.space{
+    width:18;
+}
+
+/*content section */
+
+.upperSection{
+    background-image: url("D:\\html+css project\\amazon header image.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+
+.upperMessage{
+    width:99%;
+    background-color: #f5f6f6;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.upperMessage a{
+    color:#007185;
+}
+
+/*Shop Section */
+.shopSection{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(255,233,114,255);
+    height:1000px;
+    
+    
+}
+.box{
+    width:23%;
+    height:400px;
+    background-color: white;
+    padding:20px 0px 15px;
+    margin-bottom: 20px;
+    animation-name: boxanimate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay:0s;
+}
+
+@keyframes boxanimate{
+    0%{
+        border:4px solid rgb(247, 240, 173);
+    }
+    25%{
+        border:4px solid #FFF085;
+    }
+    50%{
+        border:4px solid #FCB454;
+    }
+    75%{
+        border:4px solid #FF9B17;
+    }
+    100%{
+        border:4px solid #F16767;
+    }
+}
+
+.bgimg{
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+.bgimg:hover{
+    transform: scale(1.1);
+    border: 5px solid whitesmoke;
+    border-style:ridge;
+}
+
+.boxContent{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.boxContent a{
+    color:#007185;
+}
+
+/*footer*/
+
+.Footer{
+    height:500px;
+    background-color: rgba(35,47,62,255);
+}
+.footerTop{
+    height:49px;
+    background-color: rgba(72,87,105,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerTop a{
+    color: white;
+    text-decoration: none;
+    font-size:13px;
+}
+
+.footerMid{
+ 
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+}
+
+.foot{
+    height:300px;
+    margin-top: 30px;
+}
+.foot li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color:#DDDDDD
+}
+
+.foot p{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.foot a{
+    color: #DDDDDD;
+    text-decoration: none; 
+}
+
+.foot a:hover{
+    text-decoration: 1px solid #DDDDDD underline;   
+}
+
+.footerBottom{
+    height:68px;
+    width:100%;
+    border-top: 0.5px solid #dddddd2b;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.footerlogo{
+    
+    height:50px;
+    width:100px;
+}
+
+.footerBottom2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+
+.one select{
+    background-color: rgba(35,47,62,255);
+     height:34px;
+    width:132px;
+    color:white;
+    border:none;
+
+}
+
+.fb{
+   background-color: rgba(35,47,62,255);
+    height:34px;
+    width:132px;
+    color:white;
+    border: 0.5px solid rgba(255, 255, 255, 0.322);
+    font-size: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     margin-right:10px;
+    
+}
+.fb:active{
+    border: 2px solid #dddddd;
+}
+
+.fb img{
+    margin-right:10px;
+}
+
+.lowest{
+    height:50px;
+   background-color: rgba(19,26,34,255);
+   color:white;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* animations*/
