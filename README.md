@@ -1,2 +1,2 @@
-# CSS-PROJECT
-amazone clone
+# Amazon Clone
+this is amazone clone
